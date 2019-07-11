@@ -1,13 +1,13 @@
 public class U1 extends Rocket {
     {
         cost = 100;
-        weight = 10;
-        maxWeight = 18;
+        weight = 10000;
+        maxWeight = 18000;
         loadedWeight = weight;
     }
     public boolean launch() {
 
-        double random = 1;//Math.random() * 100 + 1;
+        double random = Math.random() * 100 + 1;
         double launchExpChance = 5 * ((double)(loadedWeight - weight) / (maxWeight - weight));
 //        System.out.println("random is:" + random);
 //        System.out.println("launchExpChance is:" + launchExpChance);

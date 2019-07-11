@@ -19,7 +19,7 @@ public class Rocket implements Spaceship {
         else {
             return false;
         }
-    };
+    }
    public void carry(Item item){
        loadedWeight += item.weight;
    };
