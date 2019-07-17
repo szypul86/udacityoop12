@@ -1,5 +1,5 @@
 public class U2 extends Rocket{
-    {
+    {   //see U1
         cost = 120;
         weight = 18000;
         maxWeight = 29000;
